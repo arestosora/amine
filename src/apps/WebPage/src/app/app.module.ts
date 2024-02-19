@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { NoscriptComponent } from './components/noscript/noscript.component';
+import { ContextMenuComponent } from './components/context-menu/context-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LoaderComponent,
-    NoscriptComponent
+    NoscriptComponent,
+    ContextMenuComponent
   ],
   imports: [
     BrowserModule,
