@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { NoscriptComponent } from './components/noscript/noscript.component';
 import { ContextMenuComponent } from './components/context-menu/context-menu.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContextMenuComponent } from './components/context-menu/context-menu.com
     HeaderComponent,
     LoaderComponent,
     NoscriptComponent,
-    ContextMenuComponent
+    ContextMenuComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
