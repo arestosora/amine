@@ -8,6 +8,7 @@ import { LoaderService } from 'src/app/services/loader.service';
 })
 export class LoaderComponent {
   constructor(private loaderService:LoaderService) {}
+  showLoader = true
   /**
    * Objeto que rige el comportamiento del loader
    */
@@ -17,6 +18,7 @@ export class LoaderComponent {
      * @returns {undefined}
      */
     enable: ():undefined => {
+      this.showLoader = true
       return
     },
     /**
@@ -24,6 +26,7 @@ export class LoaderComponent {
      * @returns {undefined}
      */
     disable: ():undefined => {
+      this.showLoader = false
       return
     },
     /**
