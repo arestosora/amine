@@ -8,6 +8,7 @@ import { LoaderComponent } from './components/loader/loader.component';
 import { NoscriptComponent } from './components/noscript/noscript.component';
 import { ContextMenuComponent } from './components/context-menu/context-menu.component';
 import { HomeComponent } from './components/home/home.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './components/home/home.component';
     LoaderComponent,
     NoscriptComponent,
     ContextMenuComponent,
-    HomeComponent
+    HomeComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
