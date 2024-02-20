@@ -1,0 +1,51 @@
+noscript {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+div.noscriptDiv {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000a;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+
+div.noscriptDiv>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 50px;
+    padding: 0px 50px;
+    border-radius: 20px;
+    background-color: var(--background);
+    color: var(--text)
+}
+
+div.noscriptDiv>div>h1 {
+    font-size: 7rem;
+    margin: 0px;
+}
+
+div.noscriptDiv>div>h2 {
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+div.noscriptDiv>div>p {
+    font-size: 1.5rem;
+    margin: 0px;
+}
