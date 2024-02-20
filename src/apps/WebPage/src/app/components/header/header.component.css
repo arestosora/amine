@@ -1,0 +1,24 @@
+div.headerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerbox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.headerbox ul > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerbox ul > a > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
