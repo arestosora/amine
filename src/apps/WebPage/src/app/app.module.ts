@@ -9,6 +9,7 @@ import { NoscriptComponent } from './components/noscript/noscript.component';
 import { ContextMenuComponent } from './components/context-menu/context-menu.component';
 import { HomeComponent } from './components/home/home.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
     NoscriptComponent,
     ContextMenuComponent,
     HomeComponent,
-    PricingComponent
+    PricingComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
