@@ -1,1 +1,17 @@
-<p>context-menu works!</p>
+<div *ngIf="isVisible" class="cm" [style.left]="menuPosition.x" [style.top]="menuPosition.y">
+    <p>Options</p>
+    <div (clicl)="share()">
+        Share
+    </div>
+    <hr>
+    <p>Navigation</p>
+    <div (click)="back()">
+        Back
+    </div>
+    <div (click)="home()">
+        Home
+    </div>
+    <div (click)="pricing()">
+        Pricing
+    </div>
+</div>
