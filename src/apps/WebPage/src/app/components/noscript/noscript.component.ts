@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-noscript',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./noscript.component.css']
 })
 export class NoscriptComponent {
-
+  constructor() {}
 }

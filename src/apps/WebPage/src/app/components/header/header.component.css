@@ -1,0 +1,94 @@
+div.headerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 200px;
+    z-index: 850;
+}
+
+.headerbox ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerbox ul>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.headerbox ul>a>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 600;
+}
+
+.headerbox ul>a:hover {
+    color: #ffc63d;
+    filter: drop-shadow(0px 0px 10px #0001)
+}
+
+.headerbox ul>a {
+    --primary-color: #111;
+    --hovered-color: #ffc63d;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.headerbox ul>a li {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.headerbox ul>a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+}
+
+.headerbox ul>a li::before {
+    position: absolute;
+    box-sizing: border-box;
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+}
+
+.headerbox ul>a li.home::before {
+    content: "Home";
+}
+
+.headerbox ul>a li.pricing::before {
+    content: "Pricing";
+}
+
+.headerbox ul>a:hover::after {
+    width: 100%;
+}
+
+.headerbox ul>a:hover li::before {
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.start {
+    height: calc(100vh - 100px);
+    background-color: #313131;
+    color: #fff;
+}
+
+.start h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: calc(10% + 100px);
+    right: 10%;
+}
+
+.start p {
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: calc(10% + 90px);
+    right: 10%;
+}
+
+.start div.buttons {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.start div.buttons > button {
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.start div.buttons > button:hover {
+    transform: scale(1.05);
+}
+
+.start div.buttons button.first {
+    border: 2px solid #ffc63d;
+    background-color: transparent;
+    color: #fff;
+}
+
+.start div.buttons button.second {
+    border: 2px solid #ffc63d;
+    background-color: #ffc63d;
+    color: #313131;
+}

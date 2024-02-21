@@ -7,6 +7,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { NoscriptComponent } from './components/noscript/noscript.component';
 import { ContextMenuComponent } from './components/context-menu/context-menu.component';
+import { HomeComponent } from './components/home/home.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { LoginComponent } from './components/login/login.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { ContextMenuComponent } from './components/context-menu/context-menu.com
     HeaderComponent,
     LoaderComponent,
     NoscriptComponent,
-    ContextMenuComponent
+    ContextMenuComponent,
+    HomeComponent,
+    PricingComponent,
+    LoginComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
