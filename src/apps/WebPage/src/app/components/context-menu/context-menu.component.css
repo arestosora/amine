@@ -11,17 +11,20 @@
     align-items: start;
     justify-content: center;
     gap: 5px;
+    z-index: 951;
 }
 
 .cm > p {
     color: #fff7;
     font-weight: bold;
     font-size: 12px;
+    z-index: 952;
 }
 
 .cm > hr {
     border-color: #fff7;
     width: 100%;
+    z-index: 953;
 }
 
 .cm > div {
@@ -29,6 +32,7 @@
     width: calc(100% - 20px);
     border-radius: 7px;
     padding: 5px 10px;
+    z-index: 954;
 }
 
 .cm > div:hover {
