@@ -7,12 +7,12 @@ app-header {
     background-color: #f5f5f5;
 }
 
-body {
-    margin-top: 100px;
-}
-
 app-noscript {
     z-index: 999;
+}
+
+app-context-menu {
+    z-index: 950;
 }
 
 app-loader {
@@ -21,4 +21,8 @@ app-loader {
 
 app-header {
     z-index: 800;
+}
+
+app-home, app-pricing {
+    z-index: 1;
 }
