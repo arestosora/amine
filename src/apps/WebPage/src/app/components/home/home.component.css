@@ -52,3 +52,56 @@
     background-color: #ffc63d;
     color: #313131;
 }
+
+.info {
+    background-color: #171717;
+    background-image: url("./assets/muscle-body.jpg");
+    height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+
+.info h1 {
+    position: absolute;
+    color: #fff;
+    font-size: 34px;
+    left: 10%;
+    top: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info ul {
+    position: absolute;
+    color: #fff;
+    left: 10%;
+    top: calc(10% + 40px);
+    font-size: 20px;
+    list-style: none;
+}
+
+.info li {
+	margin: 0;
+	padding: 20px 0 20px 44px;
+	list-style: none;
+	background-image: url("./assets/check.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+    font-weight: bold;
+}
+
+.info button {
+    position: absolute;
+    bottom: 10%;
+    left: calc(10% + 40px);
+    height: 50px;
+    border: 2px solid #ffc63d;
+    background: transparent;
+    color: #fff;
+    width: 300px;
+    font-size: 17px;
+    cursor: pointer;
+}
