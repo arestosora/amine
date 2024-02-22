@@ -2,6 +2,14 @@
     font-family: Montserrat, Arial;
 }
 
+*:not(.selectable) {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -ms-touch-select: none;
+}
+
 body {
     margin: 0;
     margin-top: 100px;
