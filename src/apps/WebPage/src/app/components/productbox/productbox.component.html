@@ -1,1 +1,52 @@
-<p>productbox works!</p>
+<section>
+    <div class="container">
+        <div class="box">
+            <div class="plan">
+                <div class="header copper">
+                    <p class="title">Copper</p>
+                    <p class="price">15$</p>
+                    <button>Buy</button>
+                </div>
+                <ul>
+                    <li>Personal plan</li>
+                </ul>
+                <p (click) = "go('copper')">More info</p>
+            </div>
+        </div>
+        <div class="box active">
+            <p>Recommended product</p>
+            <div class="plan">
+                <div class="header silver">
+                    <p class="title">Silver</p>
+                    <p class="price">35$</p>
+                    <button>Buy</button>
+                </div>
+                <ul>
+                    <li>Personal plan</li>
+                    <li>Weekly tracking</li>
+                    <li>Giveaway participation</li>
+                </ul>
+                <p (click) = "go('silver')">More info</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="plan">
+                <div class="header gold">
+                    <p class="title">Gold</p>
+                    <p class="price">55$</p>
+                    <button>Buy</button>
+                </div>
+                <ul>
+                    <li>Personal plan</li>
+                    <li>Daily tracking</li>
+                    <li>Exclusive chat access</li>
+                    <li>Giveaway participation</li>
+                </ul>
+                <p (click) = "go('gold')">More info</p>
+            </div>
+        </div>
+    </div>
+    <div class="promo">
+        <p>Buy now one of our plans and get 15% offer in our future products<span>*</span></p>
+    </div>
+</section>
