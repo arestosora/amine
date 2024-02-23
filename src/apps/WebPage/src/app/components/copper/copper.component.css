@@ -1,0 +1,57 @@
+.frontpage {
+    height: 300px;
+    position: relative;
+    background-color: #ee8f59;
+    background: linear-gradient(to bottom right, #ee8f59, #954f32);
+}
+
+.frontpage .title {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.frontpage .pricing {
+    position: absolute;
+    right: 10%;
+    bottom: calc(10% + 70px);
+    font-size: 56px;
+    margin: 0;
+}
+
+.frontpage button {
+    border-radius: 5px;
+    border: 3px solid #000;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10%;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    right: 10%;
+    font-weight: bold;
+}
+
+.frontpage button:hover {
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.more {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.more > p {
+    font-size: 38px;
+    font-weight: bold;
+}
