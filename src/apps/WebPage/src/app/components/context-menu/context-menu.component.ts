@@ -41,12 +41,8 @@ export class ContextMenuComponent {
     }
   }
 
-  home() {
-    this.router.navigate([""])
-  }
-
-  pricing() {
-    this.router.navigate(["pricing"])
+  go(page:string) {
+    this.router.navigate([page])
   }
 
   copylink() {
