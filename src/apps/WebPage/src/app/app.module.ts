@@ -8,9 +8,12 @@ import { LoaderComponent } from './components/loader/loader.component';
 import { NoscriptComponent } from './components/noscript/noscript.component';
 import { ContextMenuComponent } from './components/context-menu/context-menu.component';
 import { HomeComponent } from './components/home/home.component';
-import { PricingComponent } from './components/pricing/pricing.component';
 import { LoginComponent } from './components/login/login.component';
 import { LogoutComponent } from './components/logout/logout.component';
+import { CopperComponent } from './components/copper/copper.component';
+import { SilverComponent } from './components/silver/silver.component';
+import { GoldComponent } from './components/gold/gold.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +23,12 @@ import { LogoutComponent } from './components/logout/logout.component';
     NoscriptComponent,
     ContextMenuComponent,
     HomeComponent,
-    PricingComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    CopperComponent,
+    SilverComponent,
+    GoldComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
