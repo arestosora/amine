@@ -81,8 +81,16 @@ div.headerbox {
     content: "Home";
 }
 
-.headerbox ul>a li.pricing::before {
-    content: "Pricing";
+.headerbox ul>a li.copper::before {
+    content: "Copper";
+}
+
+.headerbox ul>a li.silver::before {
+    content: "Silver";
+}
+
+.headerbox ul>a li.gold::before {
+    content: "Gold";
 }
 
 .headerbox ul>a:hover::after {
