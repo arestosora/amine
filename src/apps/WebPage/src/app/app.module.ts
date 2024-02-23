@@ -14,6 +14,8 @@ import { CopperComponent } from './components/copper/copper.component';
 import { SilverComponent } from './components/silver/silver.component';
 import { GoldComponent } from './components/gold/gold.component';
 import { PrivacyComponent } from './components/privacy/privacy.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ProductboxComponent } from './components/productbox/productbox.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PrivacyComponent } from './components/privacy/privacy.component';
     CopperComponent,
     SilverComponent,
     GoldComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    ProductsComponent,
+    ProductboxComponent
   ],
   imports: [
     BrowserModule,
