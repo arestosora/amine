@@ -7,6 +7,7 @@ import { CopperComponent } from './components/copper/copper.component';
 import { SilverComponent } from './components/silver/silver.component';
 import { GoldComponent } from './components/gold/gold.component';
 import { PrivacyComponent } from './components/privacy/privacy.component';
+import { PaymentComponent } from './components/payment/payment.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: "privacy",
     component: PrivacyComponent
+  },
+  {
+    path: "pay",
+    component: PaymentComponent
   }
 ];
 

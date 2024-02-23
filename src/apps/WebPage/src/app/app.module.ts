@@ -34,6 +34,7 @@ import { PaymentFormComponent } from './components/payment-form/payment-form.com
 import { SigninComponent } from './components/signin/signin.component';
 import { SigninFormComponent } from './components/signin-form/signin-form.component';
 import { SigninButtonComponent } from './components/signin-button/signin-button.component';
+import { PaymentComponent } from './components/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { SigninButtonComponent } from './components/signin-button/signin-button.
     PaymentFormComponent,
     SigninComponent,
     SigninFormComponent,
-    SigninButtonComponent
+    SigninButtonComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
