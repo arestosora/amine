@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-copper',
+  selector: 'copper',
   templateUrl: './copper.component.html',
   styleUrls: ['./copper.component.css']
 })

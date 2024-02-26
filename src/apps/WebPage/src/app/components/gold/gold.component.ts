@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-gold',
+  selector: 'gold',
   templateUrl: './gold.component.html',
   styleUrls: ['./gold.component.css']
 })
