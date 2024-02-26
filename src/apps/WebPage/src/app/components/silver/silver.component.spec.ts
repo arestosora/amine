@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SilverComponent } from './silver.component';
+import { SilverPage } from './silver.component';
 
-describe('SilverComponent', () => {
-  let component: SilverComponent;
-  let fixture: ComponentFixture<SilverComponent>;
+describe('SilverPage', () => {
+  let component: SilverPage;
+  let fixture: ComponentFixture<SilverPage>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SilverComponent]
+      declarations: [SilverPage]
     });
-    fixture = TestBed.createComponent(SilverComponent);
+    fixture = TestBed.createComponent(SilverPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

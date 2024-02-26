@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MailComponent } from './mail.component';
+import { PaymentFormMail } from './mail.component';
 
-describe('MailComponent', () => {
-  let component: MailComponent;
-  let fixture: ComponentFixture<MailComponent>;
+describe('PaymentFormMail', () => {
+  let component: PaymentFormMail;
+  let fixture: ComponentFixture<PaymentFormMail>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MailComponent]
+      declarations: [PaymentFormMail]
     });
-    fixture = TestBed.createComponent(MailComponent);
+    fixture = TestBed.createComponent(PaymentFormMail);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

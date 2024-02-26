@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CopperComponent } from './copper.component';
+import { CopperPage } from './copper.component';
 
-describe('CopperComponent', () => {
-  let component: CopperComponent;
-  let fixture: ComponentFixture<CopperComponent>;
+describe('CopperPage', () => {
+  let component: CopperPage;
+  let fixture: ComponentFixture<CopperPage>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CopperComponent]
+      declarations: [CopperPage]
     });
-    fixture = TestBed.createComponent(CopperComponent);
+    fixture = TestBed.createComponent(CopperPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

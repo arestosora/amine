@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PersonalComponent } from './personal.component';
+import { PaymentFormPersonal } from './personal.component';
 
-describe('PersonalComponent', () => {
-  let component: PersonalComponent;
-  let fixture: ComponentFixture<PersonalComponent>;
+describe('PaymentFormPersonal', () => {
+  let component: PaymentFormPersonal;
+  let fixture: ComponentFixture<PaymentFormPersonal>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [PersonalComponent]
+      declarations: [PaymentFormPersonal]
     });
-    fixture = TestBed.createComponent(PersonalComponent);
+    fixture = TestBed.createComponent(PaymentFormPersonal);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

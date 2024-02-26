@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GoldComponent } from './gold.component';
+import { GoldPage } from './gold.component';
 
-describe('GoldComponent', () => {
-  let component: GoldComponent;
-  let fixture: ComponentFixture<GoldComponent>;
+describe('GoldPage', () => {
+  let component: GoldPage;
+  let fixture: ComponentFixture<GoldPage>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GoldComponent]
+      declarations: [GoldPage]
     });
-    fixture = TestBed.createComponent(GoldComponent);
+    fixture = TestBed.createComponent(GoldPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

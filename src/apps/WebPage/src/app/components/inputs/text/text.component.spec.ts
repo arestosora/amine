@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TextComponent } from './text.component';
+import { FormText } from './text.component';
 
-describe('TextComponent', () => {
-  let component: TextComponent;
-  let fixture: ComponentFixture<TextComponent>;
+describe('FormText', () => {
+  let component: FormText;
+  let fixture: ComponentFixture<FormText>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TextComponent]
+      declarations: [FormText]
     });
-    fixture = TestBed.createComponent(TextComponent);
+    fixture = TestBed.createComponent(FormText);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
