@@ -246,3 +246,12 @@
     gap: 10px;
     margin-top: 40px;
 }
+
+.plans .plan > p {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}

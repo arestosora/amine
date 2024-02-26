@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomePage } from './home.component';
+import { InputRadio } from './radio.component';
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('RadioComponent', () => {
+  let component: InputRadio;
+  let fixture: ComponentFixture<InputRadio>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomePage]
+      declarations: [InputRadio]
     });
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(InputRadio);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

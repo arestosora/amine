@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomePage } from './home.component';
+import { InputCheckbox } from './checkbox.component';
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('CheckboxComponent', () => {
+  let component: InputCheckbox;
+  let fixture: ComponentFixture<InputCheckbox>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomePage]
+      declarations: [InputCheckbox]
     });
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(InputCheckbox);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

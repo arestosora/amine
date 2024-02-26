@@ -1,26 +1,36 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
-import { PricingComponent } from './components/pricing/pricing.component';
-import { LoginComponent } from './components/login/login.component';
-import { LogoutComponent } from './components/logout/logout.component';
+import { HomePage } from './components/home/home.component';
+import { CopperPage } from './components/copper/copper.component';
+import { SilverPage } from './components/silver/silver.component';
+import { GoldPage } from './components/gold/gold.component';
+import { PrivacyPage } from './components/privacy/privacy.component';
+import { PaymentPage } from './components/payment/payment.component';
 
 const routes: Routes = [
   {
     path: "",
-    component: HomeComponent
+    component: HomePage
   },
   {
-    path: "pricing",
-    component: PricingComponent
+    path: "copper",
+    component: CopperPage
   },
   {
-    path: "login",
-    component: LoginComponent
+    path: "silver",
+    component: SilverPage
   },
   {
-    path: "logout",
-    component: LogoutComponent
+    path: "gold",
+    component: GoldPage
+  },
+  {
+    path: "privacy",
+    component: PrivacyPage
+  },
+  {
+    path: "pay",
+    component: PaymentPage
   }
 ];
 

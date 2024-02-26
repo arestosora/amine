@@ -1,0 +1,86 @@
+section.ad {
+    background-color: #0f75eb;
+    height: 50px;
+    width: calc(80%);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+
+.ad > p {
+    color: #fff;
+    margin: 0;
+}
+
+.ad > p.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ad > p.subtitle {
+    font-size: 18px;
+}
+
+.frontpage {
+    height: 300px;
+    position: relative;
+    background-color: #ee8f59;
+    background: linear-gradient(to bottom right, #f4f3f6, #a5a6aa);
+}
+
+.frontpage .title {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.frontpage .pricing {
+    position: absolute;
+    right: 10%;
+    bottom: calc(10% + 70px);
+    font-size: 56px;
+    margin: 0;
+}
+
+.frontpage button {
+    border-radius: 5px;
+    border: 3px solid #000;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10%;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    right: 10%;
+    font-weight: bold;
+}
+
+.frontpage button:hover {
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+.more {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+
+.more > p {
+    font-size: 38px;
+    font-weight: bold;
+}

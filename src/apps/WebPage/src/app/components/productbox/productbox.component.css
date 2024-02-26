@@ -1,0 +1,126 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px
+}
+
+section > .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+}
+
+section .box {
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    border-radius: 10px;
+    min-height: 400px;
+    filter: drop-shadow(0px 0px 10px #0004);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+section .box.active {
+    background-color: #0f75eb;
+}
+
+section .box > p {
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+section .plan {
+    background-color: #fff;
+    width: 300px;
+    height: calc(100% - 15px);
+    border-radius: 5px;
+}
+
+section .header {
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+
+section .header.copper {
+    background: linear-gradient(to bottom right, #954f32, #ee8f59);
+    color: #000;
+}
+
+
+section .header.silver {
+    background: linear-gradient(to bottom right, #f4f3f6, #a5a6aa);
+    color: #000;
+}
+
+section .header.gold {
+    background: linear-gradient(to bottom right, #e1d861, #d39e02);
+    color: #000;
+}
+
+section .header > .title {
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+section .header > .price {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section .header > button {
+    position: absolute;
+    bottom: 20px;
+    width: 50%;
+    left: 25%;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+section .header > button:hover {
+    border: 1px solid #0000;
+    background-color: #fff;
+    color: #000;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+section .plan > p {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}

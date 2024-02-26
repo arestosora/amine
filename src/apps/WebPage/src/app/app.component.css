@@ -1,4 +1,4 @@
-app-header {
+page-header {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -7,22 +7,22 @@ app-header {
     background-color: #f5f5f5;
 }
 
-app-noscript {
+noScript {
     z-index: 999;
 }
 
-app-context-menu {
+context-menu {
     z-index: 950;
 }
 
-app-loader {
+loader {
     z-index: 900;
 }
 
-app-header {
+page-header {
     z-index: 800;
 }
 
-app-home, app-pricing {
+home, products, copper, silver, gold {
     z-index: 1;
 }

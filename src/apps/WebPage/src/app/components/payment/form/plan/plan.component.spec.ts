@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomePage } from './home.component';
+import { PaymentFormPlan } from './plan.component';
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('PaymentFormPlan', () => {
+  let component: PaymentFormPlan;
+  let fixture: ComponentFixture<PaymentFormPlan>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomePage]
+      declarations: [PaymentFormPlan]
     });
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(PaymentFormPlan);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

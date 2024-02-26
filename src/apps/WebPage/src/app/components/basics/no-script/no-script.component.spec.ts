@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomePage } from './home.component';
+import { NoScript } from './no-script.component';
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('NoscriptComponent', () => {
+  let component: NoScript;
+  let fixture: ComponentFixture<NoScript>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HomePage]
+      declarations: [NoScript]
     });
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(NoScript);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
