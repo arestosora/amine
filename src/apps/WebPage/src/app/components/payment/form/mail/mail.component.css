@@ -1,0 +1,156 @@
+div.mc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0px 30px 0px;
+}
+
+div.chbs {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.mc>p {
+    text-align: justify;
+    margin: 0;
+}
+
+label {
+    display: flex;
+}
+
+label>p {
+    color: #000;
+}
+
+label.input {
+    flex-direction: column;
+    gap: 10px;
+    cursor: default;
+}
+
+label.checkbox {
+    flex-direction: row;
+    align-items: start;
+    cursor: pointer;
+    gap: 20px;
+}
+
+label.checkbox > p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+label.input>input {
+    border: 1px solid #20212450;
+    font: 400 18px Arial;
+    outline: 2px solid #5865f200;
+    border-radius: 4px;
+    height: 32px;
+    padding: 13px 15px;
+    transition: all .1s;
+    cursor: text;
+}
+
+label.input>input:hover {
+    border: 1px solid #20212400;
+    outline: 2px solid #5865f2;
+}
+
+label.input>input::placeholder {
+    opacity: .5;
+}
+
+label.input.valid>input:not(:focus) {
+    border: 1px solid #20212400;
+    outline: 2px solid green;
+}
+
+div>label>p {
+    margin: 0
+}
+
+.check {
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+}
+
+.check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34, 50, 84, 0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c8ccd4;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+}
+
+.check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+}
+
+.check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+}
+
+.check:hover:before {
+    opacity: 1;
+}
+
+.check:hover svg {
+    stroke: green;
+}
+
+input[type="checkbox"]:checked+.check svg {
+    stroke: green;
+}
+
+input[type="checkbox"]:checked+.check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+input[type="checkbox"]:checked+.check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
+button {
+    background-color: green;
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: default;
+}

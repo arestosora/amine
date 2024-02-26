@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './copper.component.html',
   styleUrls: ['./copper.component.css']
 })
-export class CopperComponent {
+export class CopperPage {
 
 }

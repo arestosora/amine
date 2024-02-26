@@ -2,11 +2,11 @@ import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-context-menu',
+  selector: 'context-menu',
   templateUrl: './context-menu.component.html',
   styleUrls: ['./context-menu.component.css']
 })
-export class ContextMenuComponent {
+export class ContextMenu {
   isVisible: boolean = false;
   menuPosition = { x: '0px', y: '0px' };
 

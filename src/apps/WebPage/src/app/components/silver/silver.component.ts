@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './silver.component.html',
   styleUrls: ['./silver.component.css']
 })
-export class SilverComponent {
+export class SilverPage {
 
 }

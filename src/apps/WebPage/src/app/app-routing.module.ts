@@ -1,46 +1,36 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
-import { LogoutComponent } from './components/logout/logout.component';
-import { CopperComponent } from './components/copper/copper.component';
-import { SilverComponent } from './components/silver/silver.component';
-import { GoldComponent } from './components/gold/gold.component';
-import { PrivacyComponent } from './components/privacy/privacy.component';
-import { PaymentComponent } from './components/payment/payment.component';
+import { HomePage } from './components/home/home.component';
+import { CopperPage } from './components/copper/copper.component';
+import { SilverPage } from './components/silver/silver.component';
+import { GoldPage } from './components/gold/gold.component';
+import { PrivacyPage } from './components/privacy/privacy.component';
+import { PaymentPage } from './components/payment/payment.component';
 
 const routes: Routes = [
   {
     path: "",
-    component: HomeComponent
-  },
-  {
-    path: "login",
-    component: LoginComponent
-  },
-  {
-    path: "logout",
-    component: LogoutComponent
+    component: HomePage
   },
   {
     path: "copper",
-    component: CopperComponent
+    component: CopperPage
   },
   {
     path: "silver",
-    component: SilverComponent
+    component: SilverPage
   },
   {
     path: "gold",
-    component: GoldComponent
+    component: GoldPage
   },
   {
     path: "privacy",
-    component: PrivacyComponent
+    component: PrivacyPage
   },
   {
     path: "pay",
-    component: PaymentComponent
+    component: PaymentPage
   }
 ];
 

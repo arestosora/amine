@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-productbox',
+  selector: 'products-container',
   templateUrl: './productbox.component.html',
   styleUrls: ['./productbox.component.css']
 })
-export class ProductboxComponent {
+export class ProductsContainer {
   constructor(private router:Router) {}
   go(page:string) {
     this.router.navigate([page])

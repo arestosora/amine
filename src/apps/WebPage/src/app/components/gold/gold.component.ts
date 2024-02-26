@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './gold.component.html',
   styleUrls: ['./gold.component.css']
 })
-export class GoldComponent {
+export class GoldPage {
 
 }

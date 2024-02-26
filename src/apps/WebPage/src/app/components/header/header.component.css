@@ -67,36 +67,6 @@ div.headerbox {
     transition: 0.3s ease-out;
 }
 
-.headerbox ul>a li::before {
-    position: absolute;
-    box-sizing: border-box;
-    width: 0%;
-    inset: 0;
-    color: var(--hovered-color);
-    overflow: hidden;
-    transition: 0.3s ease-out;
-}
-
-.headerbox ul>a li.home::before {
-    content: "Home";
-}
-
-.headerbox ul>a li.copper::before {
-    content: "Copper";
-}
-
-.headerbox ul>a li.silver::before {
-    content: "Silver";
-}
-
-.headerbox ul>a li.gold::before {
-    content: "Gold";
-}
-
 .headerbox ul>a:hover::after {
-    width: 100%;
-}
-
-.headerbox ul>a:hover li::before {
     width: 100%;
 }

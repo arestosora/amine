@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { LoaderService } from 'src/app/services/loader.service';
 
 @Component({
-  selector: 'app-loader',
+  selector: 'loader',
   templateUrl: './loader.component.html',
   styleUrls: ['./loader.component.css']
 })
-export class LoaderComponent {
+export class Loader {
   constructor(private loaderService:LoaderService) {}
   showLoader = true
   /**
