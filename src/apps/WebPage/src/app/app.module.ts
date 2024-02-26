@@ -53,6 +53,7 @@ import { PaymentPage } from './components/payment/payment.component';
   import { FormMail } from './components/inputs/mail/mail.component';
   import { InputCheckbox } from './components/inputs/checkbox/checkbox.component';
   import { InputRadio } from './components/inputs/radio/radio.component';
+import { DateComponent } from './components/inputs/date/date.component';
 
 @NgModule({
   declarations: [
@@ -101,7 +102,8 @@ import { PaymentPage } from './components/payment/payment.component';
     FormNumber,
     FormMail,
     InputCheckbox,
-    InputRadio
+    InputRadio,
+    DateComponent
   ],
   imports: [
     BrowserModule,
