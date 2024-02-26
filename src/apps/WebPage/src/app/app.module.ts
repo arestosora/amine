@@ -8,10 +8,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Basics
-import { Loader } from './components/loader/loader.component';
-import { Header } from './components/header/header.component';
-import { NoScript } from './components/noscript/noscript.component';
-import { ContextMenu } from './components/context-menu/context-menu.component';
+import { Loader } from './components/basics/loader/loader.component';
+import { Header } from './components/basics/header/header.component';
+import { NoScript } from './components/basics/no-script/no-script.component';
+import { ContextMenu } from './components/basics/context-menu/context-menu.component';
 
 // Home
 import { HomePage } from './components/home/home.component';

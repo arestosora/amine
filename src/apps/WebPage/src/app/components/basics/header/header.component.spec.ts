@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NoscriptComponent } from './noscript.component';
+import { Header } from './header.component';
 
-describe('NoscriptComponent', () => {
-  let component: NoscriptComponent;
-  let fixture: ComponentFixture<NoscriptComponent>;
+describe('HeaderComponent', () => {
+  let component: Header;
+  let fixture: ComponentFixture<Header>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NoscriptComponent]
+      declarations: [Header]
     });
-    fixture = TestBed.createComponent(NoscriptComponent);
+    fixture = TestBed.createComponent(Header);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
