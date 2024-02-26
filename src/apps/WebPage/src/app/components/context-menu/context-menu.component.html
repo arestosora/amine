@@ -1,9 +1,8 @@
 <div *ngIf="isVisible" class="cm" [style.left]="menuPosition.x" [style.top]="menuPosition.y">
-    <p>Options</p>
-    <div (clicl)="share()">
-        Share
+    <p>Share</p>
+    <div (clicl)="copylink()">
+        Copy link
     </div>
-    <hr>
     <p>Navigation</p>
     <div (click)="back()">
         Back

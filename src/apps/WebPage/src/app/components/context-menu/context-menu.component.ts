@@ -22,7 +22,7 @@ export class ContextMenuComponent {
     const clickX = event.clientX;
     const halfScreenHeight = screenHeight / 2;
     if (clickY > halfScreenHeight) {
-      this.menuPosition.y = (clickY - 272) + 'px';
+      this.menuPosition.y = (clickY - 242) + 'px';
     } else {
       this.menuPosition.y = event.clientY + 'px';
     }
@@ -49,7 +49,7 @@ export class ContextMenuComponent {
     this.router.navigate(["pricing"])
   }
 
-  share() {
+  copylink() {
     
   }
 
