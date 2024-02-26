@@ -23,6 +23,6 @@ page-header {
     z-index: 800;
 }
 
-home, pricing {
+home, products, copper, silver, gold {
     z-index: 1;
 }
