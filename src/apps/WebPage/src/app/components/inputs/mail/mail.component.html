@@ -1,1 +1,4 @@
-<p>mail works!</p>
+<label [ngClass]="{ 'valid': isValidInput() }">
+    <p><ng-content></ng-content></p>
+    <input type="email" autocomplete="email" [id]="Id" [required]="Required" [placeholder]="Placeholder">
+</label>
