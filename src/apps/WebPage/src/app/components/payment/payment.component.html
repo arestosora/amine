@@ -1,24 +1,12 @@
 <div class="page">
     <div class="box">
-        <!--
+        <pay-loading *ngIf="loader"></pay-loading>
         
-        <pay-loading></pay-loading>
-        
-        <pay-failed></pay-failed>
-        <pay-completed></pay-completed>
+        <pay-failed *ngIf="failed"></pay-failed>
+        <pay-completed *ngIf="complete"></pay-completed>
 
-        <pay-form-personal></pay-form-personal>
-        <pay-form-plan></pay-form-plan>
-
-        -->
-        <pay-form-mail></pay-form-mail>
-
-        <!--
-        <app-payment-form></app-payment-form>
-        <app-payment-loading></app-payment-loading>
-        <app-payment-failed></app-payment-failed>
-        <app-payment-completed></app-payment-completed>
-        <app-payment-mail></app-payment-mail>
-        -->
+        <pay-form-mail *ngIf="formMail"></pay-form-mail>
+        <pay-form-personal *ngIf="formPersonal"></pay-form-personal>
+        <pay-form-plan *ngIf="formPlan"></pay-form-plan>
     </div>
 </div>
