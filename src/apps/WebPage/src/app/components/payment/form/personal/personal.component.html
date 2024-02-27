@@ -1,6 +1,7 @@
 <div class="mc">
     <p>We need to collect some data to be able to give you your personalized plan. Please answer honestly, we will not
         share the data with anyone.</p>
+<<<<<<< Updated upstream
     <label class="input">
         <p>Name</p>
         <input type="text" autocomplete="given-name" required="">
@@ -9,6 +10,10 @@
         <p>Birthday</p>
         <input type="date" autocomplete="bday" required="">
     </label>
+=======
+    <input-text id="name" required="true" autocomplete="given-name" validation="^[A-Za-z\u0600-\u06FF][A-Za-z\u0600-\u06FF\s']{2,}$">Name</input-text>
+    <input-date id="bday" required="true" max="today-12y" min="today-95y">Birthday</input-date>
+>>>>>>> Stashed changes
     <div class="rdo">
         <p translate="yes">Sex</p>
         <div class="rdo-box">
@@ -26,6 +31,7 @@
             </label>
         </div>
     </div>
+<<<<<<< Updated upstream
     <label class="input">
         <p>Country</p>
         <input type="text" autocomplete="country-name" required="">
@@ -226,4 +232,8 @@
         </div>
     </div>
     <button disabled>Finish</button>
+=======
+    <input-text id="country" required="true" autocomplete="country-name" validation="^[A-Za-z\u0600-\u06FF][A-Za-z\u0600-\u06FF\s']{3,}$">Country</input-text>
+    <button disabled>Continue</button>
+>>>>>>> Stashed changes
 </div>
