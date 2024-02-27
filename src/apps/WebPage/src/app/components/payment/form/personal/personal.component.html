@@ -2,6 +2,8 @@
     <p>We need to collect some data to be able to give you your personalized plan. Please answer honestly, we will not
         share the data with anyone.</p>
     <input-text id="name" required="true" autocomplete="given-name" validation="^[A-Za-z\u0600-\u06FF][A-Za-z\u0600-\u06FF\s']{2,}$">Name</input-text>
+    <input-date id="bday" required="true" max="today-12y" min="today-95y">Birthday</input-date>
+    <input-text id="name" required="true" autocomplete="given-name" validation="^[A-Za-z\u0600-\u06FF][A-Za-z\u0600-\u06FF\s']{2,}$">Name</input-text>
     <input-date id="bday" required="true" max="" min="">Birthday</input-date>
     <div class="rdo">
         <p translate="yes">Sex</p>
@@ -9,26 +11,5 @@
         <input-radio id="sex-female" name="sex-radio" required="true">Female</input-radio>
     </div>
     <input-text id="country" required="true" autocomplete="country-name" validation="^[A-Za-z\u0600-\u06FF][A-Za-z\u0600-\u06FF\s']{3,}$">Country</input-text>
-    <div class="chbs">
-        <p>Allergies/intolerances</p>
-        <input-checkbox id="allergies-gluten">Gluten</input-checkbox>
-        <input-checkbox id="allergies-nuts">Nuts</input-checkbox>
-        <input-checkbox id="allergies-lactose">Lactose</input-checkbox>
-        <input-checkbox id="allergies-egg">Egg</input-checkbox>
-        <input-checkbox id="allergies-soy">Soy</input-checkbox>
-        <input-checkbox id="allergies-mollusks">Mollusks</input-checkbox>
-        <input-checkbox id="allergies-crustaceans">Crustaceans</input-checkbox>
-        <input-checkbox id="allergies-fish">Fish</input-checkbox>
-        <input-checkbox id="allergies-peanuts">Peanuts</input-checkbox>
-        <input-checkbox id="allergies-celery">Celery</input-checkbox>
-        <input-checkbox id="allergies-sesame">Sesame</input-checkbox>
-        <input-checkbox id="allergies-sulfites">Sulfites</input-checkbox>
-    </div>
-    <div class="rdo">
-        <p>What is your goal?</p>
-        <input-radio id="goal-muscle" name="goal-radio" required="true">Define muscle</input-radio>
-        <input-radio id="goal-healthy" name="goal-radio" required="true">Keep me healthy</input-radio>
-        <input-radio id="goal-other" name="goal-radio" required="true">Other</input-radio>
-    </div>
-    <button disabled>Finish</button>
+    <button disabled>Continue</button>
 </div>

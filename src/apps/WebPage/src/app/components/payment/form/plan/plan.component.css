@@ -1,0 +1,30 @@
+div.mc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding: 30px 0px 0px 0px;
+}
+
+div.chbs {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: green;
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: default;
+}
