@@ -1,44 +1,15 @@
-div.mc {
+label.container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 30px 0px 30px 0px;
-}
-
-div.chbs {
-    margin: 40px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-div.mc>p {
-    text-align: justify;
-    margin: 0;
-}
-
-label {
-    display: flex;
-}
-
-label>p {
-    color: #000;
-}
-
-label.checkbox {
     flex-direction: row;
     align-items: start;
     cursor: pointer;
     gap: 20px;
 }
 
-label.checkbox > p {
+label.container > p.content {
     text-align: justify;
     font-size: 15px;
-}
-
-
-div>label>p {
+    color: #000;
     margin: 0
 }
 
@@ -108,19 +79,4 @@ input[type="checkbox"]:checked+.check svg polyline {
     stroke-dashoffset: 42;
     transition: all 0.2s linear;
     transition-delay: 0.15s;
-}
-
-button {
-    background-color: green;
-    padding: 10px 0px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-}
-
-button:disabled {
-    background-color: #ddd;
-    cursor: default;
 }
