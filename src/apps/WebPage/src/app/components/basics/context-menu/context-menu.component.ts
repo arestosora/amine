@@ -22,13 +22,13 @@ export class ContextMenu {
     const clickX = event.clientX;
     const halfScreenHeight = screenHeight / 2;
     if (clickY > halfScreenHeight) {
-      this.menuPosition.y = (clickY - 242) + 'px';
+      this.menuPosition.y = (clickY - 262) + 'px';
     } else {
       this.menuPosition.y = event.clientY + 'px';
     }
     const halfScreenWidth = screenWidth / 2;
     if (clickX > halfScreenWidth) {
-      this.menuPosition.x = (clickX - 190) + 'px';
+      this.menuPosition.x = (clickX - 270) + 'px';
     } else {
       this.menuPosition.x = event.clientX + 'px';
     }
