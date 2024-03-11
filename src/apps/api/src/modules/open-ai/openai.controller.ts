@@ -9,6 +9,6 @@ export class OpenAIController {
 
     @Post(Methods.OpenAIRequest)
     public async request(@Body(BodyRequests.OpenAIMetaData) metadata: Prompt) {
-        return await this.openAIService.createGpt3Prompt(metadata);
+        return await this.openAIService.createRequest(metadata);
     }
 }
