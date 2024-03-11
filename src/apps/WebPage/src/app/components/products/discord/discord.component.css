@@ -1,0 +1,47 @@
+div {
+    background-color: #171717;
+    position: relative;
+    height: 50vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 450px;
+    z-index: 800;
+}
+
+p.text {
+    top: calc(10% + 170px);
+    left: 10%;
+    color: #fffc;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+img {
+    height: 60vh;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    transform: rotateZ(-10deg);
+    border-radius: 10px;
+    z-index: 600;
+}
+
+.image-decorator {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: calc(5% + 500px);
+    height: 50vh;
+    background: linear-gradient(to right, #17171700, #171717);
+    z-index: 700;
+}
