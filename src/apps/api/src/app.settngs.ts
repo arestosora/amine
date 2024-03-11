@@ -9,4 +9,8 @@ export class AppSettings {
         cancel_url: 'https://google.com',
         success_url: 'https://google.com',
     }
+
+    public static OpenAI = {
+        apiKey: process.env.OPENAI_SECRET_KEY
+    }
 }
