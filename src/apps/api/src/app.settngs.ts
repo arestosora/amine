@@ -6,5 +6,7 @@ export class AppSettings {
 
     public static Stripe = {
         apiKey: process.env.STRIPE_SECRET_KEY,
+        cancel_url: 'https://google.com',
+        success_url: 'https://google.com',
     }
 }
