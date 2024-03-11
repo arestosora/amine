@@ -7,7 +7,7 @@ import { Prompt } from './gpt.dto';
 export class OpenAiService {
     constructor(@Inject(Services.OpenAI) private readonly openAI: OpenAI) {}
 
-    public async createGpt3Prompt(metadata: Prompt) {
+    public async createRequest(metadata: Prompt) {
         return await this.openAI.completions.create({
             model: 'gpt-4-0125-preview',
             prompt: metadata.prompt
