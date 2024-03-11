@@ -9,7 +9,7 @@ export class OpenAiService {
 
     public async createRequest(metadata: Prompt) {
         return await this.openAI.completions.create({
-            model: 'gpt-4-0125-preview',
+            model: 'gpt-3.5-turbo-instruct',
             prompt: metadata.prompt
         });
     }
