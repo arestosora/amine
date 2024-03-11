@@ -54,6 +54,12 @@ import { PaymentPage } from './components/payment/payment.component';
   import { InputCheckbox } from './components/inputs/checkbox/checkbox.component';
   import { InputRadio } from './components/inputs/radio/radio.component';
 import { DateComponent } from './components/inputs/date/date.component';
+import { GiveawaysComponent } from './components/products/giveaways/giveaways.component';
+import { DiscordComponent } from './components/products/discord/discord.component';
+import { WhatsappComponent } from './components/products/whatsapp/whatsapp.component';
+import { TrainingComponent } from './components/products/plans/training/training.component';
+import { AlimentationComponent } from './components/products/plans/alimentation/alimentation.component';
+import { CardComponent } from './components/products/card/card.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +109,13 @@ import { DateComponent } from './components/inputs/date/date.component';
     FormMail,
     InputCheckbox,
     InputRadio,
-    DateComponent
+    DateComponent,
+    GiveawaysComponent,
+    DiscordComponent,
+    WhatsappComponent,
+    TrainingComponent,
+    AlimentationComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

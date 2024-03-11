@@ -1,0 +1,26 @@
+div.container {
+    height: 500px;
+    position: relative;
+    background: linear-gradient(to bottom right, #ccc, #eee);
+}
+
+div > .title {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+div > .subtitle {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 130px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+div {
+    background-color: #171717;
+    background: linear-gradient(to right, #121212, #313131);
+    color: #fff;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+div > svg {
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    fill: none;
+    stroke: #ff7300;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-width: 2;
+    height: 300px;
+    transform:perspective(500px) rotateY(30deg);
+}
+
+div > svg.back {
+    left: calc(20% - 12px);
+    opacity: .5;
+}
+
+div > p.title {
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    margin: 0;
+    color: #fff;
+    font-size: 48px;
+    max-width: calc(50vw - 10vw);
+    font-weight: bold;
+}
