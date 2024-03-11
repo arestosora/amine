@@ -1,15 +1,15 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { StripeService } from '../src/modules/stripe/stripe.service';
+import { OpenAiService } from '../src/modules/open-ai/open-ai.service';
 
-describe('StripeService', () => {
-  let service: StripeService;
+describe('OpenAiService', () => {
+  let service: OpenAiService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [StripeService],
+      providers: [OpenAiService],
     }).compile();
 
-    service = module.get<StripeService>(StripeService);
+    service = module.get<OpenAiService>(OpenAiService);
   });
 
   it('should be defined', () => {
