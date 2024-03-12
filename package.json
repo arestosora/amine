@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "stripe": "^14.20.0"
-  },
-  "devDependencies": {
-    "dotenv": "^16.4.5"
-  }
-}
