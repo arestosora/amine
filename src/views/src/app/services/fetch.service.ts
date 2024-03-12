@@ -11,7 +11,7 @@ export class FetchService extends AppSettings {
     super();
   }
 
-  public checkout(plan: string, email: string): Observable<unknown> {
-    return this.http.post<unknown>(`${this.API_ENDPOINT}/stripe/${plan}`, email)
+  public checkoutBronzePlan(email: string): Observable<any> {
+    return this.http.post<any>(`${this.API_ENDPOINT}/stripe/checkout/bronze`, email)
   }
 }
